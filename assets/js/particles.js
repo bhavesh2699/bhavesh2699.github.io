@@ -88,7 +88,7 @@ var pJS = function(tag_id, params){
       array: []
     },
     interactivity: {
-      detect_on: 'canvas',
+      detect_on: 'window',
       events: {
         onhover: {
           enable: true,
@@ -1506,8 +1506,8 @@ window.particlesJS = function(tag_id, params){
   canvas_el.className = pJS_canvas_class;
 
   /* set size canvas */
-  canvas_el.style.width = "110%";
-  canvas_el.style.height = "36%";
+  canvas_el.style.width = "39%";
+  canvas_el.style.height = "35%";
 
   /* append canvas */
   var canvas = document.getElementById(tag_id).appendChild(canvas_el);
